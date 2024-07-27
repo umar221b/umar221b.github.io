@@ -1,0 +1,125 @@
+.separated {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.175);
+    padding-bottom: 1rem;
+}
+
+body {
+    margin: 4rem 1rem 0 1rem;
+}
+
+.main-card {
+    width: 70%;
+    padding: 2rem;
+}
+
+.about {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about .name {
+    color: #a61c00;
+}
+
+.about .title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.about .about-text {
+    margin-top: 2rem;
+}
+
+.navigation {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.navigation .navigation-link-wrapper {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.navigation .navigation-link-wrapper:not(:last-child) {
+    border-right: 1px solid #a61c00;
+}
+
+.navigation .navigation-link {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 0;
+}
+
+.navigation .navigation-link[aria-expanded="true"] {
+    border-bottom: 1px solid #a61c00;
+}
+
+.navigation .navigation-link:hover {
+    border-bottom: 1px solid #a61c00;
+}
+
+#sections .section .section-title {
+    color: #a61c00;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+#sections .section .section-card {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 0;
+}
+
+#sections .section .section-card .subsection .subsection-cards {
+    margin-top: 1rem;
+}
+
+#sections .section .section-card .subsection .subsection-title {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.subsection .subsection-cards .card-img-top {
+    max-height: 160px;
+}
+
+.subsection .subsection-cards .edraak-img {
+    padding: 40px 1.5rem;
+}
+
+.subsection .subsection-cards .ajmi-img {
+    padding: 23px 1.5rem;
+}
+
+.subsection .subsection-cards .card-footer {
+    text-align: center;
+}
+
+.subsection .subsection-cards .seated-img {
+    filter: invert(1);
+    background-color: #04238b;
+    padding: 52.5px 1.5rem;
+}
+
+.subsection .subsection-cards .pvp-img {
+    background-color: black;
+    padding: 23px 1.5rem;
+}
+
+.subsection .subsection-cards .smacne-img {
+    object-fit: contain;
+    background: linear-gradient(
+    to right,
+    #4785fe 0%,
+    #4785fe 50%,
+    white 50%,
+    white 100%
+  );
+}
+
+.research .research-items {
+    margin-top: 1rem;
+}
