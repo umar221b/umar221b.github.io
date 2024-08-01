@@ -3,6 +3,15 @@
     padding-bottom: 1rem;
 }
 
+.more-info-tooltip {
+    text-decoration: underline dotted;
+    cursor: pointer;
+}
+
+a {
+    color: #008AA6;
+}
+
 body {
     margin: 4rem 1rem 0 1rem;
 }
@@ -26,10 +35,6 @@ body {
 .about .title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-}
-
-.about .about-text {
-    margin-top: 2rem;
 }
 
 .navigation {
@@ -60,12 +65,6 @@ body {
     border-bottom: 1px solid #a61c00;
 }
 
-#sections .section .section-title {
-    color: #a61c00;
-    text-align: center;
-    margin-top: 0.5rem;
-}
-
 #sections .section .section-card {
     border-left: none;
     border-right: none;
@@ -79,7 +78,8 @@ body {
 
 #sections .section .section-card .subsection .subsection-title {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    color: #a61c00;
 }
 
 .subsection .subsection-cards .card-img-top {
@@ -120,6 +120,107 @@ body {
   );
 }
 
+.subsection .secondary-subsection:not(:first-child) {
+    margin-top: 4rem;
+}
+
+.subsection .secondary-subsection-title {
+    margin-top: 2rem;
+    color: #a61c00;
+}
+
+.teaching .feedback-table td {
+    padding: 1rem;
+}
+
+.teaching .hover-enlarge-img {
+    position: relative;
+    cursor: zoom-in;
+    transition: transform .2s;
+    margin:0 auto;
+    background-color: rgb(173, 173, 237);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+@media only screen and (min-width: 992px) {
+    .teaching .hover-enlarge-img {
+        transform-origin: right center;
+    }
+}
+
+.teaching .hover-enlarge-img:hover{
+    z-index: 2;
+    transform:scale(2);
+}
+
 .research .research-items {
     margin-top: 1rem;
+}
+
+.teaching .codability_blue {
+    color: #0E5999;
+}
+
+.teaching .codability_yellow {
+    color: #F4B401;
+}
+
+.teaching .codability-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.teaching .codability-img {
+    width: 60%;
+}
+
+.teaching .codability_yellow_with_bg {
+    color: #F4B401;
+    background-color: #0E5999;
+}
+
+.open-source .secondary-subsection-title {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .open-source .secondary-subsection-title {
+        margin-top: 2rem;
+    }
+}
+
+.open-source .hover-enlarge-img {
+    position: relative;
+    cursor: zoom-in;
+    transition: transform .2s;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+@media only screen and (min-width: 992px) {
+    .open-source .hover-enlarge-img {
+        transform-origin: left center;
+    }
+}
+
+.open-source .hover-enlarge-img:hover{
+    z-index: 2;
+    transform:scale(2);
+}
+
+.open-source .image-grid-four:hover {
+    transform:scale(4);
+}
+
+.open-source .rubygems-logo-img {
+    width: 50%;
+    transform-origin: left bottom;
+    object-fit: scale-down;
+}
+
+.open-source .rubygems-logo-img:hover {
+    transform:scale(1.01);
 }

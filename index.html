@@ -8,15 +8,13 @@
         <link href="assets/color_overrides.css" rel="stylesheet">
 
     </head>
-  
     <body>
-        
         <div class="card shadow bg-body rounded main-card mx-auto">
             <div class="card-body">
                 <div class="about">
-                    <h1 class="card-title name mb-3">Umar Alkafaween</h1>
-                        <h6 class="card-subtitle mb-5 title">Software Engineer, University Lecturer</h6>
-                        <p class="about-text">6 years of experience as a software engineer, and over 2 years as a university lecturer in Computer Science. My journey in Computing Education started as a freshman in university, </p>
+                    <h1 class="card-title name mb-3"><span class="more-info-tooltip" data-bs-toggle="tooltip" data-bs-title="My legal name is written with an O (Omar)">Umar</span> Alkafaween</h1>
+                    <h6 class="card-subtitle mb-5 title">Software Engineer, University Lecturer</h6>
+                    <p class="about-text">6 years of experience as a software engineer, and over 2 years as a university lecturer in Computer Science. My journey in Computing Education started as a freshman in university, </p>
                 </div>
                 <div class="navigation">
                     <p class="d-inline-flex gap-1">
@@ -46,7 +44,6 @@
                     <div class="industry section">
                         <div class="collapse show" id="industry" data-bs-parent="#sections">
                             <div class="card card-body section-card">
-                                <h4 class="section-title">Industry Experience Highlights</h4>
                                 <div class="subsection separated">
                                     <h3 class="subsection-title mt-2">Education</h3>
                                     <div class="row subsection-cards">
@@ -155,18 +152,248 @@
                     <div class="teaching section">
                         <div class="collapse" id="teaching" data-bs-parent="#sections">
                             <div class="card card-body section-card">
-                                <h4 class="section-title">Teaching Experience Highlights</h4>
+                                <div class="subsection separated">
+                                    <h4 class="subsection-title">Lecturer in Computer Science</h4>
+                                    <p class="mt-4">I taught the Fundamentals of Computing course (CS1) at Al Hussein Technical University throughout the last 3 years.</p>
+                                    <div class="secondary-subsections">
+                                        <div class="secondary-subsection">
+                                            <h5 class="secondary-subsection-title">Teaching Evaluations</h5>
+                                            <table class="table mt-4">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Semester</th>
+                                                        <th>Evaluation</th>
+                                                        <th>School Average</th>
+                                                        <th>University Average</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="table-group-divider">
+                                                    <tr>
+                                                        <td>Fall 2021</td>
+                                                        <td>4.45</td>
+                                                        <td>4.24</td>
+                                                        <td>4.34</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Spring 2022</td>
+                                                        <td>3.89</td>
+                                                        <td>4.19</td>
+                                                        <td>4.31</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Summer 2022</td>
+                                                        <td>4.26</td>
+                                                        <td>4.45</td>
+                                                        <td>4.39</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fall 2022</td>
+                                                        <td>4.67</td>
+                                                        <td>4.43</td>
+                                                        <td>4.37</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Spring 2023</td>
+                                                        <td>4.73</td>
+                                                        <td>4.37</td>
+                                                        <td>4.31</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fall 2023</td>
+                                                        <td>4.45</td>
+                                                        <td>4.42</td>
+                                                        <td>4.32</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p class="text-center mt-2"><small>Evaluations by students - scores out of 5</small></p>
+                                        </div>
+                                        <div class="secondary-subsection">
+                                            <h4 class="secondary-subsection-title">Assessment Feedback</h4>
+                                            <div class="row gy-4">
+                                                <div class="col-12 col-lg-6">
+                                                    <p>Following the results of <a href="https://www.hamiltonfour.tech/" referrerpolicy="no-referrer" rel="external" target="_blank">David H Smith' IV</a>'s work on <a href="https://dl.acm.org/doi/abs/10.1145/3545945.3569821" referrerpolicy="no-referrer" rel="external" target="_blank">Investigating the Effects of Testing Frequency on Programming Performance and Students' Behavior</a>, I convinced the department to move away from a mid-exam+final-project assessment model in the Fundamentals of Computing (CS1) course, to a multiple-homework based assessment model. Each homework consisted of a group of auto-graded problems that were submitted on <a href="https://autolabproject.com/" referrerpolicy="no-referrer" rel="external" target="_blank">Autolab</a>. The development of the autograders and the assessment process on Autolab was done by me.</p>
+                                                </div>
+                                                <div class="col-12 col-lg-6">
+                                                    <img src="assets/images/cumulative_sum.png" class="w-100 hover-enlarge-img" alt="An example from a homework on Arrays">
+                                                    <p class="text-center mt-2"><small>An example from a homework on Arrays</small></p>
+                                                </div>
+                                                <p>A student survey at the end of the course asked students to compare the way they are assessed in this course with the way they are assessed in their other courses that use the mid-exam+final project model. Results were positive for the 2 semesters I ran this assessment model. Student performance improved compared to the previous 4 semesters, and plagiarism violations were easier to prove.</p>
+                                            </div>
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Question</th>
+                                                        <th>Midterm + Project</th>
+                                                        <th>No Difference</th>
+                                                        <th>Multiple Assignments</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="table-group-divider">
+                                                    <tr>
+                                                        <td>Which assessment model helps you study better?</td>
+                                                        <td>7%</td>
+                                                        <td>9%</td>
+                                                        <td>84%</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Which assessment model do you believe would have helped you improve your programming skills better and allowed you to use what you learn in this course in other courses?</td>
+                                                        <td>6%</td>
+                                                        <td>4%</td>
+                                                        <td>90%</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Which assessment model is more stressful in terms of trying to achieve your assessment criteria?</td>
+                                                        <td>66%</td>
+                                                        <td>14%</td>
+                                                        <td>20%</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Which assessment model do you believe is fairer at evaluating your competence and your final grade?</td>
+                                                        <td>12%</td>
+                                                        <td>15%</td>
+                                                        <td>73%</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p class="text-center mt-2"><small>Student responses to end-of-course assessment survey</small></p>
+                                        </div>
+                                        <div class="secondary-subsection">
+                                            <h5 class="secondary-subsection-title">Student Feedback (quoted)</h5>
+                                            <table class="feedback-table table table-hover mt-4">
+                                                <thead>
+                                                    <tr><th>Prompt: What did you like best about this course?</th></tr>
+                                                </thead>
+                                                <tbody class="table-group-divider">
+                                                    <tr><td>"the instructor was very good, he improved our skills and fun course"</td></tr>
+                                                    <tr><td>"Our instructor doctor Umar, and how inspiring he was to us in order for us to become better at what we do! He has such great personality with the way that he interacted with us and his relationship with us."</td></tr>
+                                                    <tr><td>"It was fun and the Doctor / Eng was literally the best thing about this course! He made it fun. I really enjoyed this course."</td></tr>
+                                                    <tr><td>"My section was perfect but others used slides to teach. I believe coding and showing work and writing codes as Dr/ Eng Umar does is waaay better then reading from slides."</td></tr>
+                                                    <tr><td>"It wasn't boring at all and I think it all back for my instructor and the course was fun"</td></tr>
+                                                    <tr><td>"The doctor way of explaining the subject and the piazza platform."</td></tr>
+                                                    <tr><td>"طريقة شرح الدكتور المثالية لتوصيل المعلومة بأبسط و اوضح صورة"<br><br><strong>Translation:</strong> The doctor's ideal approach to delivering information in the simplest and clearest way possible.</td></tr>
+                                                    <tr><td>"اهتمام الدكتور بلطلبة ومتابعتهم من حيث الاسايمنتس وبلمحاضرة واجابة على اسئلتهم في اي وقت من بيازا"<br><br><strong>Translation:</strong> The doctor's care for his students, following up with them during practice labs and on their assignments, and being available to answer questions any time of the day on Piazza.</td></tr>
+                                                    <tr><td>"Dr Umar is one of the best teachers i had the opportunity to study from"</td></tr>
+                                                    <tr><td>"The best thing about the engineer "Omar", is that he is loving, understanding, kind, and intelligent. He selflessly assists us without hesitation or any exceptions, always ready to lend a helping hand."</td></tr>
+                                                    <tr><td>"the doctor is extremely clever"</td></tr>
+                                                    <tr><td>"Everything was actually well-organized and reflected positively on the outcome."</td></tr>
+                                                    <tr><td>"The deep knowledge the instructor had shown, Assignments instead of exams, the instructor's ability to simplify complex concepts and consistently ensuring that his students have the resources and support needed to excel, has not only enhanced my understanding but also inspired a genuine interest in the subject."</td></tr>
+                                                    <tr><td>"the instructor he's the best"</td></tr>
+                                                    <tr><td>"Everything, like the way that instructor coaches us."</td></tr>
+                                                    <tr><td>"الدكتور جدا شاطر و مبدع و بحبب الطلاب بالماده من خلال تعبه و متابعته للطلاب"<br><br><strong>Translation:</strong> The doctor is very good and creative at teaching. He made the course enjoyable through his hard work and constant follow-ups with students.</td></tr>
+                                                    <tr><td>"the delivery of the information by our instructor."</td></tr>
+                                                    <tr><td>"المادة لطيفة والدكتور من احسن الناس الي درسوني اي مادة في كل حياتي بحمد الله مليون مرة انه اخذت عنده يعني في العادة بكون الدكتور يا فاهم بالمادة كثير بس شرحه مش كثير يا بكون بشرح كثير ممتاز بس علمه وسط بس كفاوين عبقري ومتمكن من المادة وبنفس الوقت كثير بعرف يشرح ويوصل المعلومة وكمان متعاون حتى لما تسأله عن موضوع برا المادة كان نفسي انه يدرس مواد غير الـ FOC كمان بس للاسف ما بدرس"<br><br><strong>Translation:</strong> The course was nice. The doctor is one of the best teachers that taught me anything in my life. I thank God a million times I took this course with him. Oftentimes, my teachers were either really knowledgeable but cannot convey information clearly, or they delivered information in a very good manner but they were not very knowledgeable. But Dr. Alkafaween is brilliant. He is very knowledgeable about the topics he teaches, and his information delivery is on point. He is also very cooperative and helpful, even when he is asked about stuff not directly related to the course. I wish he taught other courses, but unfortunately he said he is currently only teaching Fundamentals of Computing (FoC).</td></tr>
+                                                    <tr><td>"Everything. Starting from the way instructor Umar teaches the material, to the material itself."</td></tr>
+                                                    <tr><td>"Instructor Umar's interest in computer education made the course unforgettable. It improved my problem-solving skills a lot. His feedback after each oral discussion was helpful. I will never regret taking this course with him. I would definitely recommend anyone to take this course with instructor Umar."</td></tr>
+                                                    <tr><td>"Smooth communication between student and teacher"</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="subsection separated">
+                                    <h3 class="subsection-title">Online Programming Courses</h3>
+                                    <div class="row mt-5">
+                                        <div class="col">
+                                            <p>I created a 19-hour online course that teaches basic programming in C in the Arabic language using a problem solving approach. The course is free for anyone on Youtube and <a href="https://www.youtube.com/playlist?list=PL_yhz4Om0LNsfeKo6KAUhgWIIQV2F4oL8" referrerpolicy="no-referrer" rel="external" target="_blank">can be found here</a>.</p>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="subsection">
+                                    <h3 class="subsection-title">Co-founder and Instructor at <a class="codability-link" href="https://codability.org" referrerpolicy="no-referrer" rel="external" target="_blank"><span class="codability_yellow_with_bg">Cod</span><span class="codability_blue">ab</span><span class="codability_yellow">i</span><span class="codability_blue">l</span><span class="codability_yellow">i</span><span class="codability_blue">ty</span></a></h3>
+                                    <div class="row mt-5">
+                                        <div class="col text-center">
+                                            <img class="codability-img" src="assets/images/codability_class_photo.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-4">
+                                        <div class="col">
+                                            <p>I co-founded <a class="codability-link" href="https://codability.org" referrerpolicy="no-referrer" rel="external" target="_blank">Codability</a>, a non-profit programming Summer camp, with a group of friends in 2013/2014 to teach problem solving for school students through interacting with Computer Science.<br>As an executive member of Codability's board, and also an instructor, we graduated over 1000 students, many of which were employed by big companies like Google, Amazon, Meta, and Microsoft.<br>Our courses are offered by volunteers that are past and active ACM contestants; national champions, regional winners, and world finalists.<br>Codability's goal is to provide Computer Science education to school students regardless of their socioeconomic status, that is why our courses cost only 10% of the cost of related courses offered elsewhere in Jordan.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
             
-                    <div class="opensource section">
+                    <div class="open-source section">
                         <div class="collapse" id="open-source" data-bs-parent="#sections">
                             <div class="card card-body section-card">
-                                <h4 class="section-title">Open Source Contributions</h4>
                                 <div class="subsection">
+                                    <div class="row gy-2">
+                                        <div class="col-lg-6 col-12">
+                                            <img class="hover-enlarge-img w-100" src="assets/images/open_source_tinymce6_formula_editor.png" alt="TinyMCE6 Formula Editor Plugin">
+                                        </div>
+                                        <div class="col-lg-6 col-12">
+                                            <h5 class="secondary-subsection-title">TinyMCE 6 Formula Editor</h5>
+                                            <p>A formula editor plugin to allow adding equations and formulas inside TinyMCE6. I forked this from an older package for TinyMCE4 and upgraded it to work with the newer versions of TinyMCE.</p>
+                                            <p><a href="https://github.com/umar221b/tinymce6-formula" referrerpolicy="no-referrer" rel="external" target="_blank">Github</a> <a href="https://www.npmjs.com/package/tinymce6-formula" referrerpolicy="no-referrer" rel="external" target="_blank">NPM</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="col-lg-6 col-12">
+                                            <div class="row gy-2">
+                                                <div class="col-lg-6 col-12">
+                                                    <img class="hover-enlarge-img image-grid-four w-100 h-100" src="assets/images/autolab_logo.svg" alt="Autolab">
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <img class="hover-enlarge-img image-grid-four w-100" src="assets/images/opens_source__autolab_moss.png" alt="Autolab Moss Plagiarism Page Change">
+                                                </div>
+                                            </div>
+                                            <div class="row gy-2 mt-2">
+                                                <div class="col-lg-6 col-12">
+                                                    <img class="hover-enlarge-img image-grid-four w-100" src="assets/images/open_source_autolab_scoreboard.png" alt="Autolab Scoreboard Page">
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <img class="hover-enlarge-img image-grid-four w-100" src="assets/images/opens_source__autolab_api.png" alt="Autolab API Change">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-12">
+                                            <h5 class="secondary-subsection-title">Autolab Contributions</h5>
+                                            <p>I have a few contributions to Autolab related to setting up the Autolab instance, running plagiarism checks, and retrieving data from the API. I also created many autograded labs that can be adopted and used by anyone. My labs support test-case checking and unit-test checking and can be used to test C programs in single or multiple files. I am working on making these labs available publicly on my Github.</p>
+                                            <p><a href="https://github.com/autolab/Autolab" referrerpolicy="no-referrer" rel="external" target="_blank">Github</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5 gy-2">
+                                        <div class="col-lg-6 col-12">
+                                            <div class="row gy-2">
+                                                <div class="col-lg-6 col-12">
+                                                    <img class="hover-enlarge-img image-grid-four w-100 h-100" src="assets/images/open_source_attendance_record.png" alt="Attendance Record XBlock">
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <img class="hover-enlarge-img image-grid-four w-100" src="assets/images/open_source_advanced_survey.png" alt="Advanced Survey XBlock">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-12">
+                                            <h5 class="secondary-subsection-title">OpenEdx XBlocks</h5>
+                                            <p>I create XBlocks as part of my work at Al Jazeera Media Institute. XBlocks are educational components used to extend an LMS by adding activities with custom functionality. I currently have 2 open-source XBlocks, one for tracking attendance in a MOOC, and the other for designing customizable surveys that can contain multiple choice and free-response questions.</p>
+                                            <p><strong>Attendance Record:</strong> <a href="https://github.com/umar221b/attendancerecord-xblock" referrerpolicy="no-referrer" rel="external" target="_blank">Github</a></p>
+                                            <p><strong>Advanced Survey:</strong> <a href="https://github.com/umar221b/advancedsurvey-xblock" referrerpolicy="no-referrer" rel="external" target="_blank">Github</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5 gy-2">
+                                        <div class="col-lg-6 col-12">
+                                            <img class="hover-enlarge-img w-100" src="assets/images/opens_source_openedx_exercise_builder.png" alt="OpenEdx Exercise Generator Website">
+                                        </div>
+                                        <div class="col-lg-6 col-12">
+                                            <h5 class="secondary-subsection-title">OpenEdx Exercise Generator</h5>
+                                            <p>This website provides a user friendly interface that helps non-tech course staff generate certain exercise and lesson types and paste them directly to OpenEdx problems to be rendered for learners. I am working on making this available and open-source.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5 gy-2">
+                                        <div class="col-lg-6 col-12">
+                                            <img class="hover-enlarge-img rubygems-logo-img w-100" src="assets/images/open_source_rubygems_logo.png" alt="Rubygems Logo">
+                                        </div>
+                                        <div class="col-lg-6 col-12">
+                                            <h5 class="secondary-subsection-title">Ruby Gems</h5>
+                                            <p>I have 3 Ruby gems for arranging (ordering/sorting) objects, filtering them, and detailing error messages returned to views.</p>
+                                            <p><strong>Arrangeable:</strong> <a href="https://github.com/umar221b/arrangeable" referrerpolicy="no-referrer" rel="external" target="_blank">Github</a> <a href="https://rubygems.org/gems/arrangeable" referrerpolicy="no-referrer" rel="external" target="_blank">Rubygems</a></p>
+                                            <p><strong>Filterable Model:</strong> <a href="https://github.com/umar221b/filterable_model" referrerpolicy="no-referrer" rel="external" target="_blank">Github</a> <a href="https://rubygems.org/gems/filterable_model" referrerpolicy="no-referrer" rel="external" target="_blank">Rubygems</a></p>
+                                            <p><strong>Errors Full Details:</strong> <a href="https://github.com/umar221b/errors_full_details" referrerpolicy="no-referrer" rel="external" target="_blank">Github</a> <a href="https://rubygems.org/gems/errors_full_details" referrerpolicy="no-referrer" rel="external" target="_blank">Rubygems</a></p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -175,7 +402,6 @@
                     <div class="research section">
                         <div class="collapse" id="research" data-bs-parent="#sections">
                             <div class="card card-body section-card">
-                                <h4 class="section-title">Research</h4>
                                 <div class="subsection">
                                     <ul class="research-items">
                                         <li>Evaluating Large Language Model Generated Tests for CS1 Programming Problems [Alkafaween, O., Albluwi, I., Denny, P.] - (submitted to JCAL special edition 2024 - under review)</li>
