@@ -1,0 +1,315 @@
+.light-theme .separated {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.175);
+    padding-bottom: 1rem;
+}
+
+.light-theme .more-info-tooltip {
+    text-decoration: underline dotted;
+    cursor: pointer;
+}
+
+.light-theme a {
+    color: #008AA6;
+}
+
+body.light-theme {
+    margin: 4rem 1rem 0 1rem;
+}
+
+.light-theme .main-card {
+    width: 70%;
+    padding: 2rem;
+}
+
+.light-theme .about {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.light-theme .about .name {
+    color: #a61c00;
+}
+
+.light-theme .about .title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.light-theme .navigation {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.light-theme .navigation .navigation-link-wrapper {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.light-theme .navigation .navigation-link-wrapper:not(:last-child) {
+    border-right: 1px solid #a61c00;
+}
+
+.light-theme .navigation .navigation-link {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 0;
+}
+
+.light-theme .navigation .navigation-link[aria-expanded="true"] {
+    border-bottom: 1px solid #a61c00;
+}
+
+.light-theme .navigation .navigation-link:hover {
+    border-bottom: 1px solid #a61c00;
+}
+
+.light-theme #sections .section .section-card {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 0;
+}
+
+.light-theme #sections .section .section-card .subsection .subsection-cards {
+    margin-top: 1rem;
+}
+
+.light-theme #sections .section .section-card .subsection .subsection-title {
+    text-align: center;
+    margin-top: 1rem;
+    color: #a61c00;
+}
+
+.light-theme .subsection .subsection-cards .card-img-top {
+    max-height: 160px;
+}
+
+.light-theme .subsection .subsection-cards .edraak-img {
+    padding: 40px 1.5rem;
+}
+
+.light-theme .subsection .subsection-cards .ajmi-img {
+    padding: 23px 1.5rem;
+}
+
+.light-theme .subsection .subsection-cards .card-footer {
+    text-align: center;
+}
+
+.light-theme .subsection .subsection-cards .seated-img {
+    filter: invert(1);
+    background-color: #04238b;
+    padding: 52.5px 1.5rem;
+}
+
+.light-theme .subsection .subsection-cards .pvp-img {
+    background-color: black;
+    padding: 23px 1.5rem;
+}
+
+.light-theme .subsection .subsection-cards .smacne-img {
+    object-fit: contain;
+    background: linear-gradient(
+    to right,
+    #4785fe 0%,
+    #4785fe 50%,
+    white 50%,
+    white 100%
+  );
+}
+
+.light-theme .subsection .secondary-subsection:not(:first-child) {
+    margin-top: 4rem;
+}
+
+.light-theme .subsection .secondary-subsection-title {
+    margin-top: 2rem;
+    color: #a61c00;
+}
+
+.light-theme .teaching .feedback-table td {
+    padding: 1rem;
+}
+
+.light-theme .teaching .hover-enlarge-img {
+    position: relative;
+    cursor: zoom-in;
+    transition: transform .2s;
+    margin:0 auto;
+    background-color: rgb(173, 173, 237);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+@media only screen and (min-width: 992px) {
+    .light-theme .teaching .hover-enlarge-img {
+        transform-origin: right center;
+    }
+}
+
+.light-theme .teaching .hover-enlarge-img:hover {
+    z-index: 2;
+    transform: scale(2);
+}
+
+.light-theme .research .research-items {
+    margin-top: 1rem;
+}
+
+.light-theme .teaching .codability_blue {
+    color: #0E5999;
+}
+
+.light-theme .teaching .codability_yellow {
+    color: #F4B401;
+}
+
+.light-theme .teaching .codability-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.light-theme .teaching .codability-img {
+    width: 60%;
+}
+
+.light-theme .teaching .codability_yellow_with_bg {
+    color: #F4B401;
+    background-color: #0E5999;
+}
+
+.light-theme .open-source .secondary-subsection-title {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .light-theme .open-source .secondary-subsection-title {
+        margin-top: 2rem;
+    }
+}
+
+.light-theme .open-source .hover-enlarge-img {
+    position: relative;
+    cursor: zoom-in;
+    transition: transform .2s;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+@media only screen and (min-width: 992px) {
+    .light-theme .open-source .hover-enlarge-img {
+        transform-origin: left center;
+    }
+}
+
+.light-theme .open-source .hover-enlarge-img:hover {
+    z-index: 2;
+    transform: scale(2);
+}
+
+.light-theme .open-source .image-grid-four:hover {
+    transform: scale(4);
+}
+
+.light-theme .open-source .rubygems-logo-img {
+    width: 50%;
+    transform-origin: left bottom;
+    object-fit: scale-down;
+}
+
+.light-theme .open-source .rubygems-logo-img:hover {
+    transform: scale(1.01);
+}
+
+.light-theme .experience-about {
+    margin-top: 2rem;
+}
+
+.light-theme .experience-img {
+    width: 15vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    .light-theme .experience-img {
+        width: 20vw;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .light-theme .experience-img {
+        width: 25vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .light-theme .experience-img {
+        width: 30vw;
+    }
+}
+
+.light-theme .experience .hover-enlarge-img {
+    position: relative;
+    cursor: zoom-in;
+    transition: transform .2s;
+    margin:0 auto;
+    background-color: rgb(173, 173, 237);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.light-theme .experience .hover-enlarge-img:hover {
+    z-index: 2;
+    transform: scale(3);
+}
+
+@media only screen and (max-width: 992px) {
+    .light-theme .experience .hover-enlarge-img:hover {
+        transform: scale(2.5);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .light-theme .experience .hover-enlarge-img:hover {
+        transform: scale(2);
+    }
+}
+
+.light-theme .experience .transform-left {
+    transform-origin: left center;
+}
+
+.light-theme .experience .transform-center {
+    transform-origin: center center;
+}
+
+.light-theme .experience .transform-right {
+    transform-origin: right center;
+}
+
+@media only screen and (max-width: 992px) {
+    .light-theme .experience .transform-center {
+        transform-origin: left center;
+    }
+
+    .light-theme .experience .force-transform-right {
+        transform-origin: right center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .light-theme .experience .transform-left {
+        transform-origin: center center;
+    }
+    
+    .light-theme .experience .transform-center {
+        transform-origin: center center;
+    }
+    
+    .light-theme .experience .transform-right {
+        transform-origin: center center;
+    }
+}
