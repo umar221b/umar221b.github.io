@@ -98,18 +98,18 @@ body.light-theme {
     text-align: center;
 }
 
-.light-theme .subsection .subsection-cards .seated-img {
+.light-theme .seated-img {
     filter: invert(1);
     background-color: #04238b;
     padding: 52.5px 1.5rem;
 }
 
-.light-theme .subsection .subsection-cards .pvp-img {
+.light-theme .pvp-img {
     background-color: black;
     padding: 23px 1.5rem;
 }
 
-.light-theme .subsection .subsection-cards .smacne-img {
+.light-theme .smacne-img {
     object-fit: contain;
     background: linear-gradient(
     to right,
@@ -297,6 +297,10 @@ body.light-theme {
 
     .light-theme .experience .force-transform-right {
         transform-origin: right center;
+    }
+
+    .light-theme .experience .force-transform-left {
+        transform-origin: left center;
     }
 }
 
