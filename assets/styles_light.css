@@ -26,6 +26,20 @@ body.light-theme {
     padding: 2rem;
 }
 
+@media only screen and (max-width: 992px) {
+    .light-theme .main-card {
+        width: 85%;
+        padding: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .light-theme .main-card {
+        width: 95%;
+        padding: 2rem;
+    }
+}
+
 .light-theme .about {
     text-align: center;
     display: flex;
@@ -45,15 +59,42 @@ body.light-theme {
 .light-theme .navigation {
     margin-top: 2rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .light-theme .navigation .navigation-link-wrapper {
     padding: 0 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    flex: 25%;
 }
 
-.light-theme .navigation .navigation-link-wrapper:not(:last-child) {
-    border-right: 1px solid #a61c00;
+@media only screen and (min-width: 992px) {
+    .light-theme .navigation .navigation-link-wrapper:not(:last-child) {
+        border-right: 1px solid #a61c00;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .light-theme .navigation .navigation-link-wrapper {
+        flex: 50%;
+    }
+
+    .light-theme .navigation .navigation-link-wrapper:nth-child(odd) {
+        border-right: 1px solid #a61c00;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .light-theme .navigation .navigation-link-wrapper {
+        flex: 100%;
+    }
+
+    .light-theme .navigation .navigation-link-wrapper {
+        border-left: 1px solid #a61c00;
+        border-right: 1px solid #a61c00;
+    }
 }
 
 .light-theme .navigation .navigation-link {
