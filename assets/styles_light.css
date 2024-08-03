@@ -12,6 +12,11 @@
     color: #008AA6;
 }
 
+.light-theme .unset-anchor {
+    all: unset;
+    cursor: pointer;
+}
+
 body.light-theme {
     margin: 4rem 1rem 0 1rem;
 }
@@ -261,14 +266,36 @@ body.light-theme {
     border: 1px solid black;
 }
 
+.light-theme .experience .border-img {
+    background-color: rgb(173, 173, 237);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
 .light-theme .experience .hover-enlarge-img:hover {
     z-index: 2;
     transform: scale(3);
 }
 
+.light-theme .experience .scale-medium.hover-enlarge-img:hover {
+    transform: scale(2.5);
+}
+
+.light-theme .experience .scale-small.hover-enlarge-img:hover {
+    transform: scale(2);
+}
+
 @media only screen and (max-width: 992px) {
     .light-theme .experience .hover-enlarge-img:hover {
         transform: scale(2.5);
+    }
+
+    .light-theme .experience .scale-medium.hover-enlarge-img:hover {
+        transform: scale(2);
+    }
+    
+    .light-theme .experience .scale-small.hover-enlarge-img:hover {
+        transform: scale(1.5);
     }
 }
 
@@ -276,11 +303,20 @@ body.light-theme {
     .light-theme .experience .hover-enlarge-img:hover {
         transform: scale(2);
     }
+
+    .light-theme .experience .scale-medium.hover-enlarge-img:hover {
+        transform: scale(1.5);
+    }
+    
+    .light-theme .experience .scale-small.hover-enlarge-img:hover {
+        transform: scale(1.2);
+    }
 }
 
 .light-theme .experience .transform-left {
     transform-origin: left center;
 }
+
 
 .light-theme .experience .transform-center {
     transform-origin: center center;
@@ -288,6 +324,18 @@ body.light-theme {
 
 .light-theme .experience .transform-right {
     transform-origin: right center;
+}
+
+.light-theme .experience .transform-left-bottom {
+    transform-origin: left bottom;
+}
+
+.light-theme .experience .transform-center-bottom {
+    transform-origin: center bottom;
+}
+
+.light-theme .experience .transform-right-bottom {
+    transform-origin: right bottom;
 }
 
 @media only screen and (max-width: 992px) {
@@ -314,6 +362,18 @@ body.light-theme {
     }
     
     .light-theme .experience .transform-right {
+        transform-origin: center center;
+    }
+
+    .light-theme .experience .transform-left-bottom {
+        transform-origin: center center;
+    }
+    
+    .light-theme .experience .transform-center-bottom {
+        transform-origin: center center;
+    }
+    
+    .light-theme .experience .transform-right-bottom {
         transform-origin: center center;
     }
 }
