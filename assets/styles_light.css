@@ -180,6 +180,10 @@ body.light-theme {
     padding: 1rem;
 }
 
+.light-theme .teaching .feedback-table tr:last-child td {
+    border-bottom: none;
+}
+
 .light-theme .teaching .hover-enlarge-img {
     position: relative;
     cursor: zoom-in;
