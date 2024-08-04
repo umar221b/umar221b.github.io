@@ -24,6 +24,7 @@ body.light-theme {
 .light-theme .main-card {
     width: 70%;
     padding: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 @media only screen and (max-width: 992px) {
@@ -35,8 +36,8 @@ body.light-theme {
 
 @media only screen and (max-width: 768px) {
     .light-theme .main-card {
-        width: 95%;
-        padding: 2rem;
+        width: 98%;
+        padding: 0.1rem;
     }
 }
 
