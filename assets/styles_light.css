@@ -12,6 +12,16 @@
     color: #008AA6;
 }
 
+.light-theme .shadow-hover {
+    border-radius: 2rem;
+    box-shadow: none;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.light-theme .shadow-hover:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);;
+}
+
 .light-theme .unset-anchor {
     all: unset;
     cursor: pointer;
@@ -68,7 +78,7 @@ body.light-theme {
 .light-theme .navigation .navigation-link-wrapper {
     padding: 0 1rem;
     margin-bottom: 2rem;
-    flex: 25%;
+    flex: 20%;
 }
 
 @media only screen and (min-width: 992px) {
@@ -82,7 +92,12 @@ body.light-theme {
         flex: 50%;
     }
 
-    .light-theme .navigation .navigation-link-wrapper:nth-child(odd) {
+    .light-theme .navigation .navigation-link-wrapper:nth-child(odd):not(:last-child) {
+        border-right: 1px solid #a61c00;
+    }
+    
+    .light-theme .navigation .navigation-link-wrapper:last-child {
+        border-left: 1px solid #a61c00;
         border-right: 1px solid #a61c00;
     }
 }
@@ -421,5 +436,21 @@ body.light-theme {
     
     .light-theme .experience .transform-right-bottom {
         transform-origin: center center;
+    }
+}
+
+.light-theme .contact .contact-img {
+    width: 9vw;
+}
+
+@media only screen and (max-width: 992px) {
+    .light-theme .contact .contact-img {
+        width: 12vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .light-theme .contact .contact-img {
+        width: 15vw;
     }
 }
