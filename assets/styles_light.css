@@ -148,6 +148,11 @@ body.light-theme {
     max-height: 160px;
 }
 
+.light-theme .subsection .subsection-cards .ajmn-img {
+    background-color: #242b60;
+    padding: 40px 1.5rem;
+}
+
 .light-theme .subsection .subsection-cards .edraak-img {
     padding: 40px 1.5rem;
 }
