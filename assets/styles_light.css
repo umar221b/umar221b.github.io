@@ -51,18 +51,46 @@ body.light-theme {
     }
 }
 
-.light-theme .about {
-    text-align: center;
+.light-theme .about .about-contacts {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 767.98px) {
+    .light-theme .about > .about-header  {
+        text-align: center;
+    }
+
+    .light-theme .about .about-contacts {
+        justify-content: center;
+    }
+    
+    .light-theme .about .about-body {
+        text-align: center;
+    }
+}
+
+.light-theme .about img.contact-img {
+    width: 2vw;
+}
+
+@media only screen and (max-width: 1399.98px) {
+    .light-theme .about img.contact-img {
+        width: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .light-theme .about img.contact-img {
+        width: 5vw;
+    }
 }
 
 .light-theme .about .name {
     color: #a61c00;
 }
 
-.light-theme .about .title {
+.light-theme .about .subtitle {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
 }
