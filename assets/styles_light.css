@@ -184,21 +184,21 @@ body.light-theme {
 }
 
 .light-theme .skills-personal {
-    --skill-accent: #007b78;
-    --skill-surface: #eaf6f4;
-    --skill-ink: #00514f;
+    --skill-accent: #a64660;
+    --skill-surface: #fceef2;
+    --skill-ink: #792a40;
 }
 
 .light-theme .skills-technical {
-    --skill-accent: #b34135;
-    --skill-surface: #fff0ec;
-    --skill-ink: #842b23;
+    --skill-accent: #216caa;
+    --skill-surface: #edf5fc;
+    --skill-ink: #174e7b;
 }
 
 .light-theme .skills-teaching {
-    --skill-accent: #785600;
-    --skill-surface: #fff7df;
-    --skill-ink: #624500;
+    --skill-accent: #378162;
+    --skill-surface: #edf8f0;
+    --skill-ink: #235a40;
 }
 
 .light-theme .skills-group h4 {
