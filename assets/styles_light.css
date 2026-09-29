@@ -172,6 +172,70 @@ body.light-theme {
     color: #a61c00;
 }
 
+.light-theme .skills-groups {
+    margin-top: 1rem;
+}
+
+.light-theme .skills-group {
+    height: 100%;
+    padding: 1.25rem;
+    border-top: 4px solid var(--skill-accent);
+    background-color: var(--skill-surface);
+}
+
+.light-theme .skills-personal {
+    --skill-accent: #007b78;
+    --skill-surface: #eaf6f4;
+    --skill-ink: #00514f;
+}
+
+.light-theme .skills-technical {
+    --skill-accent: #b34135;
+    --skill-surface: #fff0ec;
+    --skill-ink: #842b23;
+}
+
+.light-theme .skills-teaching {
+    --skill-accent: #785600;
+    --skill-surface: #fff7df;
+    --skill-ink: #624500;
+}
+
+.light-theme .skills-group h4 {
+    margin-bottom: 1rem;
+    color: var(--skill-ink);
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.light-theme .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.light-theme .skills-list li {
+    max-width: 100%;
+    padding: 0.4rem 0.75rem;
+    border: 1px solid var(--skill-accent);
+    border-radius: 0.3rem;
+    background-color: #fff;
+    color: var(--skill-ink);
+    font-size: 0.9rem;
+    overflow-wrap: anywhere;
+    user-select: none;
+}
+
+.light-theme .skills-list li:hover {
+    z-index: 2;
+    transition: transform .2s, box-shadow .2s;
+    transform: scale(1.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .light-theme .subsection .subsection-cards .card-img-top {
     max-height: 160px;
 }
